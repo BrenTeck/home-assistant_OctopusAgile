@@ -1,5 +1,5 @@
 """Platform for sensor integration."""
-from homeassistant.const import TEMP_CELSIUS
+#from homeassistant.const import TEMP_CELSIUS # commented out 08/01/2025 as it was not working after updating OS
 from homeassistant.helpers.entity import Entity
 from homeassistant.helpers.event import track_point_in_time
 import homeassistant.util.dt as dt_util
